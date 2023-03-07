@@ -50,6 +50,8 @@ We chose not to run any statistical modeling
 **Train & Test Results**
 
 Train Accuracy - **88.17%**
+
 Test Accuracy - **88.48%**
 
 ## Conclusions
+With a train set of 88.17% (which is pretty darn good) and even better test set of 88.48%, we were able to create a valuable model to estimate the price of used cars.
