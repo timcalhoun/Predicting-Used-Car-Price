@@ -22,5 +22,5 @@ The dataset was very clean with no NaNs
 * Miles range of cars sold - zero to 115,875
 * Median Sold Price - $25,273
 * Range of Sold Price - $8,990 to $129,990
-<img style="display: inline; margin: 0 5px;" title="Descriptive Stats" src="img/Dataset descriptive stats.png" alt="" width="800" height="300"/>
+<img style="display: inline; margin: 0 5px;" title="Descriptive Stats" src="Images/Dataset descriptive stats.png" alt="" width="800" height="300"/>
 
