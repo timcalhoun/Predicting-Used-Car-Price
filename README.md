@@ -14,7 +14,7 @@
    - [Used Car Modeling]( https://towardsdatascience.com/end-to-end-data-science-project-predicting-used-car-prices-using-regression-1b12386c69c8)
 
 ## Exploratory Data Analysis
-We initially looked at our basic colum structures looked at numerical column stats.  The dataset was very clean with no NaNs.
+We initially looked at our basic column structures looked at numerical column stats.  The dataset was very clean with no NaNs.
 * Median Year of cars sold - 2016
 * Year range of cars sold - 2009-2013
 * Median Miles of cars sold - 52,744
@@ -39,3 +39,18 @@ The next step as to recode categorical data into numerical so we could run a cor
 Next we ran a Correlation Matrix
 * There is high correlation for sold price between year and miles.  Which in the real world makes sense.
 <img style="display: inline; margin: 0 5px;" title="Correlation Matrix" src="Images/Correlation Matrix.png" alt="" width="800" height="300"/>
+
+We chose not to run any statistical modeling
+
+**Modeling**
+
+For modeling we are using a Random Forest
+* After running Train Test Split, we did Featur Scaling
+* Feature Scaling - important to apply when independent variables highly vary, like model and trim in this dataset - helps normalize range of variables
+
+**Train & Test Results**
+
+Train Accuracy - **88.17%**
+Test Accuracy - **88.48%**
+
+## Conclusions
