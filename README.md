@@ -24,3 +24,13 @@ The dataset was very clean with no NaNs
 * Range of Sold Price - $8,990 to $129,990
 <img style="display: inline; margin: 0 5px;" title="Descriptive Stats" src="Images/Dataset descriptive stats.png" alt="" width="800" height="300"/>
 
+**Data Wrangling**
+With only 13 columns, it was easy to decipher what we wanted to keep and remove
+The next step as to recode categorical data into numerical so we could run a correlation matrix
+* We used 2 methods for recoding categorical data
+   * For car model, we used a standard recode method, creating a new numerical column
+   * For make and trim, since there were so many different variables, we used Label Encoding
+
+Next we ran a Correlation Matrix
+* There is high correlation for sold price between year and miles.  Which in the real world makes sense.
+<img style="display: inline; margin: 0 5px;" title="Correlation Matrix" src="Images/Correlation Matrix.png" alt="" width="800" height="300"/>
