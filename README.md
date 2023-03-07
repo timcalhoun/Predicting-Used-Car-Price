@@ -42,8 +42,7 @@ Next we ran a Correlation Matrix
 
 We chose not to run any statistical modeling
 
-**Modeling**
-
+## Modeling
 For modeling we are using a Random Forest
 * After running Train Test Split, we did Featur Scaling
 * Feature Scaling - important to apply when independent variables highly vary, like model and trim in this dataset - helps normalize range of variables
