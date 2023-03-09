@@ -1,5 +1,6 @@
 # Predicting-Used-Car-Price
 
+[Presenation]( https://www.linkedin.com/pulse/predicting-sold-car-price-tim-calhoun) <br>
 [Dataset]( https://aws.amazon.com/marketplace/pp/prodview-y77x3t6zisn4w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa) <br>
 
 ## Summary
